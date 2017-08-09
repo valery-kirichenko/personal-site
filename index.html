@@ -1,6 +1,8 @@
+<!doctype html>
 <html lang="en">
 <!-- Hi! -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="favicon.png" />
 <title>Valery Kirichenko</title>
 <style>
 html {
@@ -18,11 +20,6 @@ html {
      display: inline-block;
 }
 
-p {
-    font-size: 1.2em;
-    margin: 5px 0;
-}
-
 a {
     color: rgb(250, 250, 250);
 }
@@ -30,12 +27,32 @@ a {
 a:active {
     color: rgb(200, 200, 200);
 }
+
+.social-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social-list li {
+	margin: 8px 0;
+}
+
+.social-list img {
+	width: 24px;
+	height: 24px;
+	margin-right: 8px;
+	vertical-align: middle;
+}
 </style>
 <div class="wrapper">
 <div class="container">
     <h1>Valery Kirichenko</h1>
-    <p><a href="https://t.me/valera5505">telegram</a></p>
-    <p><a href="https://vk.com/id30291441">vk</a></p>
+    <ul class="social-list">
+		<li><a href="https://t.me/valera5505"><img src="telegram.png" />telegram</a></li>
+		<li><a href="https://vk.com/id30291441"><img src="vk.png" />vk</a></li>
+		<li><a href="https://steamcommunity.com/id/valera5505"><img src="steam.png" />steam</a></li>
+    </ul>
 </div>
 </div>
 </html>
