@@ -1,0 +1,56 @@
+html {
+    color: rgb(250, 250, 250);
+    font-family: Helvetica Neue, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: hsl(249, 57%, 36%);
+    background: linear-gradient(to top left, hsl(249, 60%, 20%), hsl(249, 60%, 50%));
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+     display: inline-block;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+a {
+    color: rgb(250, 250, 250);
+}
+
+a:hover {
+    color: rgb(225, 225, 225);
+}
+
+a:active {
+    color: rgb(200, 200, 200);
+}
+
+.social-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-list li {
+    margin: 8px 0;
+}
+
+.social-list img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
